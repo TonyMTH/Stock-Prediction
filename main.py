@@ -7,6 +7,8 @@ from predict import PredictStock
 
 # Text/Title
 st.title("Stock Prediction ")
+st.write('Data must be in csv file and of this order:\n\n"date","ISE","ISE","SP","DAX","FTSE","NIKKEI","BOVESPA",'
+         '"EU","EM"\n')
 
 model_pth = 'data/best_model.pt'
 
